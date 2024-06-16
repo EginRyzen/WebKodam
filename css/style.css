@@ -21,3 +21,22 @@
 .kekuatan {
     width: 75%;
 }
+
+@media screen and (max-width: 576px) {
+    .tampil-kodam :nth-child(1) {
+        flex-direction: column;
+    }
+
+    .tampil-kodam :nth-child(2) {
+        flex-direction: column;
+    }
+
+    .keterangan {
+        min-width: 100%;
+        max-width: 100%;
+    }
+
+    .kekuatan {
+        width: 100%;
+    }
+}
