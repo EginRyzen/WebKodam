@@ -12,3 +12,12 @@
     width: 80%;
     margin: auto;
 }
+
+.keterangan {
+    min-width: 22%;
+    max-width: 30%;
+}
+
+.kekuatan {
+    width: 75%;
+}
